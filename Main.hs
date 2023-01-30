@@ -92,7 +92,7 @@ parseIter word arr alpha = do
 main = do
     putStrLn "Welcome!"
     putStrLn "\nThis is an AI to solve your Wordle challenges.\n\n\n"
-    s <- readFile "small.txt"
+    s <- readFile "1.txt"
     let arr = split s ' '
     let alpha = "abcdefghijklmnopqrstuvwxyz"
     let word = getMaxWord arr alpha
